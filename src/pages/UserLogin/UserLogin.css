@@ -1,0 +1,55 @@
+.wrapper-min-box {
+  padding: 24px 24px 30px 24px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 348px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+}
+.wrapper-userLogin-top {
+  border: 1px solid #dbdbdb;
+  width: 348px;
+}
+
+.wrapper-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-buttonApp {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+.center-block {
+  text-align: center;
+}
+.wrapper-da {
+  padding: 2px;
+  width: 380px;
+  margin-top: 1em;
+}
+
+.main-wrapper {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper-left {
+  width: 420px;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper-left {
+    display: none;
+    width: 0 auto;
+  }
+}

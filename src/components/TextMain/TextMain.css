@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+.wrapper-textMain {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  padding: 30px 40px 30px 40px;
+  text-align: center;
+  background-color: white;
+}
+.wrapper-description-textMain {
+  font-family: "Passion One", cursive;
+  font-size: 21px;
+  margin: 0;
+}
+
+.description-textMain {
+  margin: 0;
+  color: #8e8e8e;
+}
+.text-tittle {
+  font-family: "Pacifico", cursive;
+  font-size: 39px;
+  margin-bottom: 15px;
+}
