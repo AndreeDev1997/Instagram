@@ -32,3 +32,8 @@
 .wrapper-info {
   padding-left: 4px;
 }
+
+.content:hover {
+  cursor: pointer;
+  text-decoration: none;
+}

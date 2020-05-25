@@ -1,10 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import "./App.css";
-import UserRegister from "./pages/UserRegister/UserRegister";
+import UserLogin from "./pages/UserLogin/UserLogin";
 
 function App() {
-  return <UserRegister />;
+  return (
+    <div>
+      <UserLogin />
+    </div>
+  );
 }
 export default App;
