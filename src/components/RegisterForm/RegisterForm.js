@@ -1,7 +1,7 @@
 import React from 'react';
-import "./FormRegister.css";
+import "./RegisterForm.css";
 
-const FormRegister = ({onChange, onSubmit, form}) => (
+const RegisterForm = ({onChange, onSubmit, form}) => (
     <div className="wrapper-form-reg">
         <form className="form" onSubmit={onSubmit}>
             <div class="form-group">
@@ -60,4 +60,4 @@ const FormRegister = ({onChange, onSubmit, form}) => (
     </div>
 )
  
-export default FormRegister;
+export default RegisterForm;

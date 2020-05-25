@@ -47,6 +47,11 @@
   width: 420px;
 }
 
+.links {
+  font-weight: bold;
+  color: #0095f6;
+}
+
 @media only screen and (max-width: 768px) {
   .wrapper-left {
     display: none;

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import DownloadButton from '../../components/DownloadButton/DownloadButton';
-import FormRegister from '../../components/FormRegister/FormRegister';
+import RegisterForm from '../../components/RegisterForm/RegisterForm';
 import appStore from '../../assets/img/appStore.png';
 import playStore from '../../assets/img/playStore.png';
 import TextMain from '../../components/TextMain/TextMain';
@@ -55,7 +55,7 @@ const UserRegister = () => {
                         isDisplayDescription={true}
                         text="Regístrate para ver fotos y videos de tus amigos."                 
                 />
-                <FormRegister
+                <RegisterForm
                         onChange={handleChange}
                         onSubmit={handleSubmit}
                         form={form}
