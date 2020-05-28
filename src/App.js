@@ -6,8 +6,8 @@ import UserRegister from "./pages/UserRegister/UserRegister";
 function App() {
   return (
     <div>
-       <UserRegister /> 
-        {/* <UserLogin />    */}
+       {/* <UserRegister />  */}
+        <UserLogin />    
     </div>
   );
 }

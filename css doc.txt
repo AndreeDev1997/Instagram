@@ -18,8 +18,9 @@ info-information
 txt-text
 frm-form
 lg-login
-rg-register
+r g-register
 sp-span
 dp-description
 u-user
 y-yes
+link-link

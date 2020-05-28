@@ -21,7 +21,7 @@ const UserLogin = () => {
         </div>
         <div className="wrLtC-uLg ">
           ¿No tienes una cuenta?
-          <a href="algo" className="ml-1 links">
+          <a href="algo" className="ml-1 link-uLg">
             Registrate
           </a>
         </div>

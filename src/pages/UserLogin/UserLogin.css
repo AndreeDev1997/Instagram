@@ -20,7 +20,13 @@
 .wrCR-uLg {
   height: inherit;
 }
-
+.link-uLg {
+  color: #0095f6;
+  font-weight: bold;
+}
+.link-uLg:hover {
+  text-decoration: none;
+}
 .wrDw-uLg {
   padding-bottom: 15px;
 }

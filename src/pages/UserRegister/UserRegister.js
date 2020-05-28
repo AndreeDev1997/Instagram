@@ -65,7 +65,7 @@ const UserRegister = () => {
 
         <div className="wrLtC-uRg">
           ¿Tienes una cuenta?
-          <a href="cuenta" className="ml-1 links-Ur">
+          <a href="cuenta" className="ml-1 link-uRg">
             Inicia sesión
           </a>
         </div>
