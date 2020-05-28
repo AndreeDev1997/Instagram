@@ -2,15 +2,15 @@ import React from "react";
 import "./TextMain.css";
 
 const TextMain = ({ isDisplayDescription, text }) => (
-  <div className="wrapper-textMain">
-    <div className="text-tittle">
+  <div className="wr-txtM">
+    <div className="txtLt-txtM">
       <h1>Instagram</h1>
     </div>
     <div
-      className="wrapper-description-textMain"
+      className="wrDp-txtM"
       style={{ display: isDisplayDescription ? "block" : "none" }}
     >
-      <p className="description-textMain">{text}</p>
+      <p className="dp-txtM">{text}</p>
     </div>
   </div>
 );

@@ -1,0 +1,25 @@
+wr -wrapper
+m - main
+dw -download 
+column-column
+btn-button 
+btnApp-buttonApp 
+c-container 
+l -left
+r-right
+t-top
+b-bottom
+lt - little
+img-image
+lo-logo
+ck-click
+cnt-content
+info-information
+txt-text
+frm-form
+lg-login
+rg-register
+sp-span
+dp-description
+u-user
+y-yes

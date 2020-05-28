@@ -7,30 +7,27 @@ import imgAppStore from "../../assets/img/appStore.png";
 import imgPlayStore from "../../assets/img/playStore.png";
 import "./UserLogin.css";
 import Span from "../../components/Span/Span";
-import RegisterForm from "../../components/RegisterForm/RegisterForm";
-import UserRegister from "../UserRegister/UserRegister";
 
 const UserLogin = () => {
   return (
-    <div className="main-wrapper">
-      {/* <UserRegister /> */}
-      <div className="wrapper-containerMain wrapper-container-l">
+    <div className="wrM-uLg">
+      <div className="wrMC-uLg wrCL-uLg">
         <Span />
       </div>
-      <div className="wrapper-containerMain wrapper-container-r">
-        <div className="wrapper-userLogin-top ">
+      <div className="wrMC-uLg wrCR-uLg">
+        <div className="wrT-uLg">
           <TextMain isDisplayDescription={false} text={""} />
-          <LoginForm className="loginForm" />
+          <LoginForm />
         </div>
-        <div className="wrapper-little-container ">
+        <div className="wrLtC-uLg ">
           ¿No tienes una cuenta?
           <a href="algo" className="ml-1 links">
             Registrate
           </a>
         </div>
-        <div className="wrapper-little-container column">
-          <div className="wrapper-download">Descarga App</div>
-          <div className="wrapper-buttonApp">
+        <div className="wrLtC-uLg column-uLg">
+          <div className="wrDw-uLg">Descarga App</div>
+          <div className="wrBtnApp-uLg">
             <DownloadButton
               link="https://apps.apple.com/us/app/instagram/id389801252"
               img={imgAppStore}

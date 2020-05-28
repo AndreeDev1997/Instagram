@@ -1,11 +1,9 @@
-.wrapper-form-reg {
-    width: auto;
-    background-color: white;
-    padding: 0px 40px 30px 40px;
-  }
-  
-  .button-form-reg {
-    width: 100%;
-  }
-  
-  
+.wrFrm-rgFrm {
+  width: auto;
+  background-color: white;
+  padding: 0px 40px 30px 40px;
+}
+
+.btn-rgFrm {
+  width: 100%;
+}

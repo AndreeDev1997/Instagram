@@ -4,7 +4,7 @@ import imgSpan from "../../assets/img/span.png";
 
 const Span = () => {
   return (
-    <div className="wrapper-span">
+    <div className="wr-sp">
       <img src={imgSpan} alt="span" />
     </div>
   );

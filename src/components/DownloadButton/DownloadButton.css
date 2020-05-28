@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Arvo&family=Cabin&family=Indie+Flower&family=Kanit:wght@700&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Squada+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Arvo&family=Cabin&family=Indie+Flower&family=Kanit:wght@700&family=Merriweather+Sans&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Squada+One&display=swap");
-.wrapper-img {
+.wrImg-dwBtn {
   width: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.img-logo {
+.imgLg-dwBtn {
   width: 100%;
 }
-.content {
+.cnt-dwBtn {
   display: flex;
   background: #000000;
   width: 122px;
@@ -19,21 +19,21 @@
   padding-top: 3px;
   padding-bottom: 2px;
 }
-.text-information {
+.txtInfo-dwBtn {
   font-size: 7px;
   color: white;
   font-family: "Montserrat", sans-serif;
 }
-.text-app {
+.txtApp-dwBtn  {
   font-size: 13px;
   color: white;
   font-family: "Merriweather Sans", sans-serif;
 }
-.wrapper-info {
+.wrInfo-dwBtn {
   padding-left: 4px;
 }
 
-.content:hover {
+.cnt-dwBtn:hover {
   cursor: pointer;
   text-decoration: none;
 }
